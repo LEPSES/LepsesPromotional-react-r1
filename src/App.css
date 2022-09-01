@@ -1,6 +1,5 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +34,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+body
+{
+  background-color: #f7f7f7;
+  
+}
+*, :after, :before {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }

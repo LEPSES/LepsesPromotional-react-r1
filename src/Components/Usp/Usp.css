@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+.Cover
+{
+    display:flex;
+    align-items: center;
+}
+.images
+{
+    width: 100%;
+    display: inline-flex;
+}
+.Image
+{
+    margin-top: -15vh;
+    width:60%;
+}
+.Image1
+{
+margin-left: -30%;
+width: 45%;
+}
+.data
+{
+    display: block;
+    margin-top: 10vh;
+     margin-left: -5%;
+     margin-right: 0;
+     width: 80%;
+}
+.carddata
+{
+    display: inline-flex;
+      margin-bottom: 8vh;
+      padding-right: 20%;
+    
+}
+.content
+{
+    display :block;
+    width: 100%;
+    margin-left: 5px;
+}
+.content h2
+{
+    width: 100%;
+    margin-top: 0.5vh;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.content p
+{
+    margin-top: 1vh;
+    font-family: 'Poppins', sans-serif;
+    color: #888;
+}
+#content-heading
+{
+    font-weight: 500;
+}
+@media screen and (max-width: 1248px)
+{
+    /* .Image
+    {
+        width: 38%;
+    }
+    .Image1
+    {
+        width: 36%;
+    } */
+    .carddata
+{
+      padding-right: 0;
+}
+.data
+{
+  width:100%;
+}
+}   
+@media screen and (max-width: 780px)
+{
+    .Image
+    {
+        width: 70%;
+    }
+    .Image1
+    {
+        width: 45%;
+        
+    }
+    .Cover
+    {
+        flex-direction: column;
+    }
+    .data
+    {
+        width:80%;
+        margin-top: 0;
+        margin: auto;
+    }
+}   
+@media screen and (max-width: 500px)
+{
+    .Image1
+    {
+        
+        width: 55%;
+    }
+    .content
+{
+    display :block;
+    width: 100%;
+    margin-left: 5px;
+}
+.content h2
+{
+    
+    width: 100%;
+   font-size: 18px;
+}
+.content p
+{
+    font-size: 15px;
+}
+.data 
+{
+    width:100%;
+}
+
+}
+@media screen and (max-width: 370px)
+{
+    #content-customize
+    {
+        margin-top: 15%;
+    }
+    #shift
+    {
+        margin-top: -10%;
+    }
+    
+}

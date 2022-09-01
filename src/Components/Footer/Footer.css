@@ -1,0 +1,251 @@
+.Footer-Outer
+{
+    margin-top: 35vh;
+}
+.Footer-Inner h1
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 42px;
+}
+.Footer-Inner h1 span
+{
+    color: #6C63FF;
+}
+.Footer-para
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 3vh auto auto auto;
+    font-size: 18px;
+    color: #707070;
+    width: 70%;
+}
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#777;
+  font-family: 'Poppins', sans-serif;
+  font-weight:300;
+  font-size: 18px;
+  border-radius: 10px;
+  line-height: 22px;
+  background-color:#f7f7f7;
+  border:1px solid rgb(188, 182, 182) ;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #6C63FF; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+.submit-form{
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 14px 80px;
+    background-color: #6c63ff;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+    border: none;
+    margin: 3vh auto 3vh auto;
+    display: block;
+    cursor: pointer;
+}
+.submit-div
+{
+ margin: auto;
+}
+.submit-form:hover { background:#CC4949; }
+.dropdown
+{
+  width:auto;
+  margin:  auto;
+  position: relative;
+  
+}
+.dropdown .dropdown-btn
+{
+  font-size: 18px;
+  padding:15px  20px;
+  background: #fff;
+  border:1px solid rgb(188, 182, 182);
+  background-color: #f7f7f7;
+  color: #7a7a7a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: all 0.8s ease;
+}
+.dropdown .dropdown-content
+{
+
+  /* top: 110%; */
+  position: absolute;
+  padding: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 3px 10px 6px rgba(0,0,0,0.06);
+  font-weight: 500;
+  color: #4a4a4a;
+  width:100%;
+ 
+  font-family: 'Poppins', sans-serif;
+}
+.dropdown .dropdown-content .dropdown-item
+{
+  padding: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color:#777;
+}
+.dropdown .dropdown-content .dropdown-item:hover
+{
+  background: #f4f4f4;
+}
+.contact-card
+{
+    width: 100%;
+    margin-inline: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+.inner-contact-card
+{
+   margin: auto;
+   padding: 8vh 3rem 3vh 3rem;
+    width: 100%;
+}
+.footer-details
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15vh;
+  padding-top: 5vh;
+  background: #e8e4fc;
+}
+.footer-set1
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.footer-set2
+{
+  display: flex;
+  justify-content: space-evenly; 
+  width: 50%;
+}
+.section-1
+{
+  margin: auto 15%;
+}
+/* .section-4 
+{
+  display: flex;
+  flex-direction: column;
+} */
+.footer-details h1
+{
+  color: #6C63FF;
+  font-family:'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.footer-details p
+{
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  margin:2vh 0 2vh 0;
+  font-size: 16px;
+}
+@media screen and (max-width: 1200px) {
+ .Footer-para
+ {
+  width: 90%;
+ }
+}
+@media screen and (max-width: 1100px) {
+  
+  .footer-details
+  {
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-set1
+  {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-set2
+  {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .section-1
+{
+  margin: auto 0%;
+}
+.section-3
+{
+  margin: auto 0%;
+  padding-left: 1rem;
+}
+.section-4
+{
+  padding-left: 2rem;
+}
+}
+@media screen and (max-width: 420px) {
+  .footer-details h1
+  {
+    font-size: 17px;
+  }
+  .footer-details p
+  {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px)
+{
+  .footer-set1
+  {
+    align-items: unset;
+  }
+  .section-1
+  {
+    margin: auto 0%;
+    padding-left: 1rem;
+  }
+  .section-2
+  {
+    padding-left: 1rem;
+  }
+  .submit-form
+  {
+    padding: 14px 50px;
+  }
+  .feedback-input,.dropdown .dropdown-btn
+  {
+    font-size: 14px;
+  }
+}

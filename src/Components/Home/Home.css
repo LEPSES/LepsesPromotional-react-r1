@@ -1,0 +1,102 @@
+
+.Outerclass
+{
+    display: flex;
+  overflow-x: hidden;
+  margin-bottom: 10vh;
+}
+.Outerclass img 
+{ 
+  
+  width: 120%;
+}
+.header
+{
+    position: relative;
+    width: 45%;
+   font-family: 'Poppins', sans-serif;
+   margin-top:31vh;
+   padding-block-end: 10vh;
+}
+.header h1
+{
+    font-size: 4vw;
+    text-align: left;
+    font-weight: 900;
+    
+    padding-left: 12%;
+}
+.header p{
+    padding-left: 12%;
+    padding-top: 6vh;
+    padding-right: 10%;
+    font-size: 1.3vw;
+    color: #7a7a7a;
+    text-align: left;
+}
+.header div
+{
+    margin-top: 8vh;
+    margin-left: 12%;
+}
+a.main-button-slider {
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: #6c63ff;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+  }
+.header span{
+    color: #6C63FF;
+}
+@media screen and (max-width: 768px) {
+ .Outerclass
+ {
+     flex-direction: column-reverse;
+ }  
+ .header
+{
+   margin-top:0vh;
+   width: 100%;
+}
+.header h1
+{
+    font-size: 10vw;
+    text-align: left;
+    font-weight: bolder;
+    
+    padding-left: 9% !important;
+}
+.header p{
+    padding-left: 9%;
+    padding-top: 6vh;
+    font-size: 16px;
+    color: #7a7a7a;
+}
+.header div
+{
+    margin-left: 9%;
+}
+
+ .Outerclass img
+ {
+     width: 110% !important;
+ }
+}
+ @media screen and (max-width: 900px) {
+     .Outerclass img
+     {
+         width: 140%;
+     }
+ }
+ @media screen and (max-width: 1474px) {
+     .Outerclass img
+     {
+         width: 110%;
+     }
+ }
